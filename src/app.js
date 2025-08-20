@@ -1,5 +1,6 @@
 const express = require('express')
 require('dotenv').config();
+const pool = require('./db');
 
 const schoolRoutes = require('./routes/schools');
 
